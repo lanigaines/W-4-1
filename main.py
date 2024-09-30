@@ -1,4 +1,4 @@
-def main():
+def generate_powerrs_of_two(N):
 
     N = int(input('Enter the number N: '))
     result = []
