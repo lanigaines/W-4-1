@@ -1,8 +1,10 @@
 def generate_powerrs_of_two(N):
-
-    N = int(input('Enter the number N: '))
     result = []
-
+    for i in range(N + 1):
+        result.append(2 ** i)
+    return result
+    
+# User input
     """
     ########################################
     Code Your Program here
